@@ -157,6 +157,7 @@ html.no-touch .zm-votebar .down:hover,
 .feed-item .avatar img {
     width: 45px;
     height: 45px;
+    /* Fixed margin issues with the vote box. */
 }
 .feed-item .avatar img {
     border-radius: 3px;
@@ -191,6 +192,8 @@ html.no-touch .zm-votebar .down:hover,
 }
 .zm-item-tag {
     border-radius: 3px;
+    color: #7C8A97;
+    /* Toned down the red color, making tags less obtrusive. */
 }
 .zu-top-search-button {
     background-image: none!important;
