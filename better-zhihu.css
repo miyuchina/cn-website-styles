@@ -215,6 +215,15 @@
         background: #34495e;
         padding: 1;
     }
+    
+    /* Fixed invitation name display issue. */
+    .question-invite-panel .suggest-persons .person .zm-item-link-avatar {
+	padding-top: 1px;
+    }
+    .question-invite-panel .suggest-persons .person .describe {
+	padding-top: 1px;   
+    }
+
     .zm-votebar.version-text .up.pressed {
         background: #34495e;
     }
