@@ -21,6 +21,8 @@ OCD.
 
 ### Better Zhihu · 我的知乎不可能这么英俊
 
+![Index](/Screenshots/better-zhihu-index.jpg)
+
 Vanton Tang 之前有写过一个“zhihu 平面化”的 CSS ，然而有一些小缺陷一直没有修复。这次索性 fork 出来方便以后自己大改。
 
 给诸位一个干净、现代、大字版的知乎。
