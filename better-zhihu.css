@@ -1,0 +1,262 @@
+/** better-zhihu.css
+ *  
+ *  Author: miyuchina
+ *  Contact: miyu.china@icloud.com
+ *
+ *  Forked from https://userstyles.org/styles/121696/zhihu.
+ *  Thank you Vanton Tang for the amazing color scheme!
+ *  
+ *  Also inspired by Frizen/Plains-Gate: https://github.com/Frizen/Plains-Gate
+ *  and unogz/izhihu: https://github.com/unogz/izhihu
+ *  Much thanks to them as well.
+ *
+ *  This CSS file is under Public Domain, which means you can do whatever you
+ *  want with it, even for commercial benefits, and without notifying the author.
+ *  With that said, I would much appreciate it if you can drop me a link to your
+ *  work via my email address.
+ *
+ *  Enjoy.
+ */
+
+/** Original comment from Vanton Tang:
+ *  "i really want this to be global"
+ *
+ *  Excuse the verbose comments in this document, for such is the wish of the
+ *  original author :)
+ */
+
+body.zhi {
+    padding-top: 55px;
+    color: #34495e;
+    line-height: 2;
+    font-size: 14px;
+    font-family: Myriad Pro, PingFang SC, Monaco, Microsoft YaHei, serif;
+    		 /* added mac font support*/
+}
+body.zhi h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.zm-item-vote {
+    left: -68px;
+    top: 10px;
+}
+.zu-top {
+    background-image: none;
+    border-bottom: none;
+    background-color: #34495e;
+    padding: 5px 0;
+}
+.zu-top-add-question {
+    background-image: none!important;
+    border-radius: 3px;
+    border: 1px solid #4e6d8d;
+    box-shadow: none!important;
+    opacity: .9;
+    -ms-filter: "alpha(Opacity=90)";
+    line-height: 0px;
+}
+.zu-top-add-question:hover {
+    opacity: 1;
+    -ms-filter: "alpha(Opacity=100)";
+}
+.zu-top-search-input {
+    border-radius: 3px;
+    border: none;
+    box-shadow: none;
+}
+.top-nav-dropdown li:last-child>a {
+    border-radius: 0 0 3px 3px;
+}
+.top-nav-dropdown li:first-child>a {
+    border-radius: 3px 3px 0 0;
+}
+*[class*="zg-btn"] {
+    border-radius: 3px;
+    background-image: none;
+    box-shadow: none;
+}
+.zu-top-nav-li.current {
+    background-image: none;
+    background: #34495e;
+    color: #16a085;
+}
+.zu-top-search-input:focus {
+    background-color: #293a4a;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+}
+.zu-top-nav-link,
+.zu-top-nav-link:visited,
+.zu-top-nav-link:active {
+    color: #fff;
+    opacity: .8;
+    -ms-filter: "alpha(Opacity=80)";
+}
+.zu-top-nav-link:hover,
+.current .zu-top-nav-link,
+.current .zu-top-nav-link:visited,
+.current .zu-top-nav-link:active {
+    opacity: 1;
+    -ms-filter: "alpha(Opacity=100)";
+}
+a {
+    color: #ac3e40;
+}
+a:hover {
+    text-decoration: underline;
+}
+.zu-top-search-input {
+    color: #536a81;
+    background: #293a4a;
+}
+.zu-top-nav-userinfo.selected,
+html.no-touch .top-nav-profile:hover .zu-top-nav-userinfo {
+    background: #34495E;
+    border-radius: 3px;
+}
+.zu-top-nav-userinfo:hover {
+    background: #536a81;
+}
+.top-nav-dropdown li a {
+    border-top: 1px solid #2f4154;
+}
+.top-nav-profile a {
+    background: #34495E;
+}
+.top-nav-profile a:hover {
+    background: #293a4a!important;
+}
+.top-nav-profile .top-nav-dropdown {
+    padding-top: 10px
+}
+html.no-touch .top-nav-dropdown a:hover {
+    background: #34495e;
+}
+.zm-side-nav-link.active,
+html.no-touch .zm-side-nav-roundtable .follow-link:hover+.zm-side-nav-link,
+html.no-touch .zm-side-nav-link:hover {
+    background: #ecf0f1;
+    border-radius: 3px;
+}
+.zg-wrap {
+    width: 1100px;
+    margin: 0 auto;
+    clear: both;
+}
+html.no-touch .zm-votebar .up:hover,
+html.no-touch .zm-votebar .down:hover,
+.zm-votebar .up.pressed,
+.zm-votebar .down.pressed {
+    background: #2980b9;
+    color: #fff;
+}
+.feed-item .avatar,
+.feed-item .avatar a,
+.feed-item .avatar img {
+    width: 0px;
+    height: 0px;
+    /** Removed avatar image completely, because of margin
+    *	issues with the vote box.
+    *
+    *   To display avatar, comment/delete the two lines above,
+    *   and uncomment the two lines below.
+    *	
+    *	width: 75px;
+    *	height: 75px;
+    **/
+}
+.feed-item .avatar img {
+    border-radius: 3px;
+}
+.feed-main,
+.zm-item-answer {
+    margin-left: 70px;
+    /** Align vote tab with the left end of the horizontal line,
+    *	because of avatar removal.
+    *	
+    *	When displaying avatar, comment/delete the line above,
+    *	and uncomment the line below.
+    *	
+    *	margin-left: 90px;
+    **/
+}
+.zh-backtotop {
+    margin-left: 400px;
+}
+.origin_image {
+    height: auto !important;
+}
+.zg-btn-blue {
+    background: #34495e;
+    border-radius: 3px;
+}
+.zg-btn-green,
+.zg-btn-follow {
+    color: #fff!important;
+    background: #34495e;
+    border: #34495e;
+    border-radius: 3px;
+    opacity: .9;
+    -ms-filter: "alpha(Opacity=90)";
+}
+.zg-btn-green:hover,
+.zg-btn-follow:hover {
+    opacity: 1;
+    -ms-filter: "alpha(Opacity=100)";
+}
+.zm-item-tag {
+    border-radius: 3px;
+}
+.zu-top-search-button {
+    background-image: none!important;
+    border-radius: 3px;
+    background: #4e6d8d;
+    border: none!important;
+    box-shadow: none!important;
+}
+.modal-dialog-title {
+    box-shadow: none;
+    background-image: none;
+    border: none;
+    background: #34495e;
+    padding: 1;
+}
+.zm-votebar.version-text .up.pressed {
+    background: #34495e;
+}
+.zm-votebar.version-text .up.pressed:hover {
+    background: #4e6d8d!important;
+}
+.zm-topic-cat-main li a {
+    border-radius: 3px;
+}
+html.no-touchevents .zm-topic-cat-main li:hover a,
+.zm-topic-cat-main li.current a {
+    background: #4e6d8d;
+    border-color: #34495e;
+    color: #fff;
+}
+.item-collapse.is-sticky {
+    background-color: #ac3e40;
+}
+.zm-side-section #js-reg-with-sina-in-top {
+    background: #e55345;
+}
+.goog-buttonset-default {
+    background: #34495e;
+    border: none;
+}
+.zg-btn-white:hover {
+    background: #eee;
+}
+
+.zh-footer {
+    font-size: 12px;
+    /** Resolve line overflow issue of footer on homepage.
+    *
+    *	Also, footer doesn't need to have the same font-size
+    *	as everything else ;-)
+    **/
+}
