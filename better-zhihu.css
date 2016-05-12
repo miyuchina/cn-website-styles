@@ -23,8 +23,8 @@
         color: #34495e;
         line-height: 2;
         font-size: 14px;
-        font-family: Myriad Pro, Monaco, PingFang SC, Microsoft YaHei, serif;
-        		 /* added mac font support*/
+	font-family: Myriad Pro, Helvetica Neue, Helvetica, PingFang SC, Microsoft YaHei, serif;
+	/* Added mac font support */
     }
     body.zhi h2 {
         font-size: 18px;
@@ -100,6 +100,11 @@
     a:hover {
         text-decoration: underline;
     }
+    a.toggle-expand {
+    	color: #7C8A97;
+	/* Toned down red color in "read more" button. */
+    }
+
     .zu-top-search-input {
         color: #536a81;
         background: #293a4a;
