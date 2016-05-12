@@ -155,17 +155,8 @@ html.no-touch .zm-votebar .down:hover,
 .feed-item .avatar,
 .feed-item .avatar a,
 .feed-item .avatar img {
-    width: 0px;
-    height: 0px;
-    /** Removed avatar image completely, because of margin
-    *	issues with the vote box.
-    *
-    *   To display avatar, comment/delete the two lines above,
-    *   and uncomment the two lines below.
-    *	
-    *	width: 75px;
-    *	height: 75px;
-    **/
+    width: 45px;
+    height: 45px;
 }
 .feed-item .avatar img {
     border-radius: 3px;
@@ -173,14 +164,6 @@ html.no-touch .zm-votebar .down:hover,
 .feed-main,
 .zm-item-answer {
     margin-left: 70px;
-    /** Align vote tab with the left end of the horizontal line,
-    *	because of avatar removal.
-    *	
-    *	When displaying avatar, comment/delete the line above,
-    *	and uncomment the line below.
-    *	
-    *	margin-left: 90px;
-    **/
 }
 .zh-backtotop {
     margin-left: 400px;
