@@ -208,6 +208,12 @@
         border: none!important;
         box-shadow: none!important;
     }
+    
+    /* Fixed autocomplete username display issue. */
+    .zu-autocomplete-row-name {
+    	padding-top: 1px;
+    }
+
     .modal-dialog-title {
         box-shadow: none;
         background-image: none;
