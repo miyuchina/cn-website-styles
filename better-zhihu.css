@@ -152,6 +152,13 @@ html.no-touch .zm-votebar .down:hover,
     background: #2980b9;
     color: #fff;
 }
+
+.feed-item-inner {
+    margin-left: 25px;
+    margin-top: 8px;
+    /* Increase margin on top and left. */
+}
+
 .feed-item .avatar,
 .feed-item .avatar a,
 .feed-item .avatar img {
@@ -159,6 +166,12 @@ html.no-touch .zm-votebar .down:hover,
     height: 45px;
     /* Fixed margin issues with the vote box. */
 }
+
+.zm-votebar {
+    margin-left: -67px;
+    /* Align with avatar. */
+}
+
 .feed-item .avatar img {
     border-radius: 3px;
 }
