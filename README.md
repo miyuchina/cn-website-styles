@@ -33,18 +33,18 @@ Vanton Tang 之前有写过一个“zhihu 平面化”的 CSS ，然而有一些
 
 **Release Notes 更新记录**
 
-▍05/14/2016 Version 0.2 Beta
+05/14/2016 Version 0.2 Beta
 
-1. Added support for 知乎圆桌, 话题广场;
-2. Various bug fixes;
-3. Improved comments, code optimization.
+- Added support for 知乎圆桌, 话题广场;
+- Various bug fixes;
+- Improved comments, code optimization.
 
-▍05/12/2016 Version 0.19 Release
+05/12/2016 Version 0.19 Release
 
-1. Introduces font support for Mac OS X, changes to a more humanistic font-family;
-2. Fixes issues with avatar, search tab, invitation tab and vote box;
-3. Changes tags and "read more" color from red to grayish-blue;
-4. Adjusts various margins.
+- Introduces font support for Mac OS X, changes to a more humanistic font-family;
+- Fixes issues with avatar, search tab, invitation tab and vote box;
+- Changes tags and "read more" color from red to grayish-blue;
+- Adjusts various margins.
 
 **Credits 鸣谢**
 
