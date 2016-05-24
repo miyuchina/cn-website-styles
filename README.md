@@ -19,6 +19,34 @@ OCD.
 
 ---
 
+### Better Bilibili · 我的 B 站不可能这么清纯
+
+![Index](/Screenshots/better-bilibili-index.jpg)
+
+大家好，我是来填坑的。
+
+消除视觉污染人人有责。中国最大同性交友网站的的强迫症改良版。
+
+**Release Link 发布页传送门**
+
+[轻点戳！](https://userstyles.org/styles/128246/b-v0-9-alpha)
+
+**Release Notes 更新记录**
+
+05/24/2016 Version 0.9 Alpha
+
+- 优化菜单栏布局；
+- 去除大量页面广告；
+- 去除部分专题的重复入口，优化首页统一性；
+- 视觉元素整理，减少视觉污染。
+- 改呀改呀改 bug（
+
+**Credits 鸣谢**
+
+Vaguely inspired by https://github.com/Frizen/Plains-Gate . Thank you Frizen.
+
+---
+
 ### Better Zhihu · 我的知乎不可能这么英俊
 
 ![Index](/Screenshots/better-zhihu-index.jpg)
@@ -53,3 +81,4 @@ Forked from [https://userstyles.org/styles/121696/zhihu.](https://userstyles.or
 Also inspired by Frizen/Plains-Gate: [https://github.com/Frizen/Plains-Gate](https://github.com/Frizen/Plains-Gate) and unogz/izhihu: [https://github.com/unogz/izhihu.](https://github.com/unogz/izhihu.) Much thanks to them as well.
 
 This CSS file is under Public Domain, which means you can do whatever you want with it, even for commercial benefits, and without notifying the author. With that said, I would much appreciate it if you can drop me a link to your work down below.
+
