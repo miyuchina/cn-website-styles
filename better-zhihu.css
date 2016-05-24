@@ -18,18 +18,25 @@
 **/
 
 @-moz-document domain("zhihu.com") {
+
 	/* Basic fonts and color scheme. */
 	body.zhi {
 		padding-top: 55px;
 		color: #34495e;
 		line-height: 2;
 		font-size: 14px;
-		font-family: Myriad Pro, Helvetica Neue, Helvetica, Arial, PingFang SC, Microsoft YaHei, serif;
+		font-family: BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, PingFang SC, Microsoft YaHei, serif;
 	}
 	body.zhi h2 {
 		font-size: 18px;
 		font-weight: 700;
 	}
+	body.zhi blockquote {
+		line-height: 2;
+		border-left-color: #DDD;
+		padding-left: 2em;
+	}
+
 	.zm-item-vote {
 		left: -68px;
 		top: 10px;
@@ -108,8 +115,8 @@
 	}
 
 	/* Restore toggle-expand color. */
-	a.toggle-expand,
-	a.toggle-expand:hover {
+	a.toggle-expand span,
+	a.toggle-expand span:hover {
 		color: #259;
 	}
 
@@ -294,7 +301,7 @@
 	/* Apply fonts and color to Roundtable. */
 	.page-roundtable .content {
 		color: #34495e;
-		font-family: Myriad Pro, Helvetica Neue, Helvetica, Arial, PingFang SC, Microsoft YaHei, serif;
+		font-family: BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, PingFang SC, Microsoft YaHei, serif;
 	}
 	.page-roundtable .page-sidebar .items a.name {
 		color: #ac3e40 !important;
@@ -302,10 +309,6 @@
 	}
 
 	/* Resolve Roundtable profile tab issues. */
-	.roundtable-profile .status {
-		padding-bottom: 0.1em;
-		padding-top: 0.4em;
-	}
 	.roundtable-profile .content {
 		height: 200px;
 	}
@@ -316,14 +319,13 @@
 		bottom: 0.2em;
 	}
 	.pure-button {
-		padding-top: 0em;
+		padding-top: 2px;
 		height: 26px;
-		line-height: 2;
 	}
 
 	/* Apply fonts to footer; resolve margin issues. */
 	.global-footer {
-		font-family: Myriad Pro, Helvetica Neue, Helvetica, Arial, PingFang SC, Microsoft YaHei, serif;
+		font-family: BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, PingFang SC, Microsoft YaHei, serif;
 		font-size: 12px;
 		text-align: center;
 	}
